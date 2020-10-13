@@ -1,0 +1,42 @@
+/*CSS reset settings here*/
+*{
+    margin: 8px;
+    padding: 2px;
+}
+.wrapper{
+    width: 970px;
+    height: 550px;
+    background-color: rgba(9, 1, 83, 0.815);
+    margin: 0px auto;
+}
+.top{
+    width: 945px;
+    height: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
+.left{
+    width: 200px;
+    height: auto;
+    background-color: rgba(0, 174, 255, 0.514);
+    display:inline-block;
+    margin-right: 126px;
+
+}
+.main{
+    width: 600px;
+    height: auto;
+    background-color: rgba(0, 11, 15, 0.514);
+    display:inline-block;
+    vertical-align: top;
+}
+.down{
+    width: 945px;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    justify-content: flex-start;
+    align-items:center;
+}
