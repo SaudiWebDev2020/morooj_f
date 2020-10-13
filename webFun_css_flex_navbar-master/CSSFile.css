@@ -1,0 +1,31 @@
+.center-box{
+    height: 200px;
+    width: 970px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 20px;
+}
+.center-item{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    
+}
+.part2-box{
+    height: 90px;
+    width: 970px;
+    background-color: rgba(103, 103, 248, 0.856);
+    display: flex;
+    justify-content:space-between; 
+    align-items:center;
+}
+.img {
+    width: 70px;
+    height: 70px;
+}
+.style{
+    display: flex;
+    justify-content:space-between;
+}
