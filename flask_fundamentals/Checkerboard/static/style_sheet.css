@@ -1,0 +1,15 @@
+div{
+    line-height: 0px;
+}
+p{
+    display: inline-block; 
+    height: 50px; 
+    width: 50px;
+    margin: 0px;
+}
+.col1{
+    background-color: black; 
+}
+.col2{
+    background-color: whitesmoke; 
+}

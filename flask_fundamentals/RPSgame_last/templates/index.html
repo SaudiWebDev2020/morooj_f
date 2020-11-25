@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Game Page 1</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div>
+        <div class="a">
+            <img src="static/rock.png" alt="">
+            <h4 class="r">Rock</h4></div>
+        <div class="a">
+            <img src="static/paper.png" alt="">
+            <h4 class="p">Paper</h4></div>
+        <div class="a">
+            <img src="static/scissors.png" alt="">
+            <h4 class="s">Scissors</h4>
+        </div>
+        <br>
+        <form action="/winner" method="POST">
+            <select name="choice">
+                <option value="rock">
+                    Rock
+                </option>
+                <option value="paper">
+                    Paper
+                </option>
+                <option value="scissors">
+                    Scissors
+                </option>
+            </select>
+            <input type='submit' value='Play'>
+        </form>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Game Page 2</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+    <div>
+        <h1>Results!</h1>
+        <div class="a">
+            <h3>You choose</h3>
+            <img src={{p}} alt="">
+        </div>
+        <div class="a">
+            <h3>Computer choose</h3>
+            <img src={{pc}} alt="">
+        </div>
+        <p>{{msg}}</p>
+        <p class="win">{{win}}</p>
+        <p class="lost">{{lost}}</p>
+        <p class="nowin">{{nowin}}</p>
+
+    </div>
+    <h2>Results details:</h2>
+
+    <table>
+        <tr>
+            <th>Round</th>
+            <th>Player Score</th>
+            <th>Computer Score</th>
+        </tr>
+        <tr>
+            <td>{{session['count']}}</td>
+            <td>{{Uscore}}</td>
+            <td>{{Cscore}}</td>
+        </tr>
+    </table>
+    <br>
+    <br>
+    <div>
+        <a href="/"><span>Click me</span> to Play another round!</a>
+        <br>
+        <a href="/reset"><span>Click me</span> to Reset rounds!</a>
+    </div>
+</body>
+
+</html>
